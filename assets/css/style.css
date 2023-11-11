@@ -298,7 +298,7 @@ body {
     line-height: 28px;
 }
 
-.card2 .get-started-link {
+.card2 .get-started-link2 {
     display: inline-block;
     text-decoration: none;
     color: var(--F74780, #F74780);
@@ -593,3 +593,24 @@ body {
     background: var(--Gradient-2-Hover, linear-gradient(0deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.50) 100%), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%));
 }
 
+/* ! Get started hover */
+
+.get-started-link2:hover {
+    color: var(--FFA7C3, #FFA7C3);
+}
+
+.get-started-link3:hover {
+    color: var(--FFA7C3, #FFA7C3);
+}
+
+.get-started-link4:hover {
+    color: var(--FFA7C3, #FFA7C3);
+}
+
+.get-started-link5:hover {
+    color: var(--FFA7C3, #FFA7C3);
+}
+
+.get-started-link6:hover {
+    color: var(--FFA7C3, #FFA7C3);
+}
