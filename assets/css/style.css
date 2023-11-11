@@ -1,0 +1,595 @@
+@font-face {
+    font-family: Plus Jakarta Sans;
+    src: url("../fonts/PlusJakartaSans-Regular.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: var(--FFFFFF, #FFF);
+}
+
+.header-cont {
+    width: 100%;
+    height: 96px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.header-cont .skilled-logo {
+    width: 111.168px;
+    height: 27.684px;
+    margin-left: 165.79px;
+    margin-top: 38.75px;
+}
+
+.header-cont .get-started-but {
+    display: inline-block;
+    width: 167px;
+    height: 56px;
+    border-radius: 28px;
+    background: var(--13183F, #13183F);
+    color: var(--FFFFFF, #FFF);
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    border: none;
+    margin-top: 24px;
+    margin-right: 165px;
+}
+
+.get-started-but a {
+    color: var(--FFFFFF, #FFF);
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    text-decoration: none;
+}
+
+/* ! main */
+
+.main-section {
+    position: relative;
+    width: 100%;
+    height: 670px;
+}
+
+/* ! Main Left */
+
+.text-and-buttons {
+    width: 457px;
+    height: 359px;
+    float: left;
+    margin-left: 165px;
+    margin-top: 220px;
+}
+
+.text-and-buttons .slogan {
+    color: var(--13183F, #13183F);
+    font-family: Plus Jakarta Sans;
+    font-size: 56px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.text-and-buttons .par-text {
+    margin-top: 29px;
+    color: var(--83869A, #83869A);
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 28px;
+}
+
+.text-and-buttons .get-started-but-main {
+    width: 167px;
+    height: 63px;
+    border-radius: 31.5px;
+    background: var(--Gradient-1, linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%));
+    border: none;
+    color: var(--FFFFFF, #FFF);
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 28px;
+    margin-top: 40px;
+}
+
+/* ! Main Right */
+
+.svg-and-photos {
+    position: relative;
+}
+
+.female-back {
+    float: right;
+    position: absolute;
+    left: 71.3%;
+    margin-top: 8%;
+    border-radius: 158.5px;
+}
+
+.photo-back-back {
+    z-index: -1;
+    float: right;
+    position: absolute;
+    border-radius: 158.5px;
+    left: 71.2%;
+    top: -96px;
+}
+
+.photo-back2 {
+    position: absolute;
+    width: 317px;
+    height: 560px;
+    flex-shrink: 0;
+    border-radius: 158.5px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    left: 71.5%;
+    margin-top: 3.8%;
+}
+
+/* ! Course hour container */
+
+.course-hour-cont {
+    position: absolute;
+    width: 199px;
+    height: 120px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: var(--FFFFFF, #FFF);
+    box-shadow: 0px 34px 54px 0px rgba(6, 22, 141, 0.16);
+    left: 65%;
+    margin-top: 23%;
+}
+
+.course-hour-text {
+    color: var(--83869A, #83869A);
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 28px;
+    margin-top: 20px;
+    margin-left: 24px;
+}
+
+.course-hour-num {
+    margin-left: 24px;
+    color: var(--13183F, #13183F);
+    font-family: Plus Jakarta Sans;
+    font-size: 40px;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 800;
+}
+
+/* ! Members */
+
+.members-cont {
+    position: absolute;
+    width: 155px;
+    height: 120px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: var(--FFFFFF, #FFF);
+    box-shadow: 0px 34px 54px 0px rgba(6, 22, 141, 0.16);
+    left: 86%;
+    margin-top: 10%;
+}
+
+.members-cont .members-text {
+    color: var(--83869A, #83869A);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    margin-top: 20px;
+    margin-left: 24px;
+}
+
+.members-cont .members-num {
+    margin-left: 24px;
+    color: var(--13183F, #13183F);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Plus Jakarta Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+/* ! Section cards */
+
+.cards {
+    width: 100%;
+    height: 888px;
+    margin-top: 100px;
+    background: linear-gradient(180deg, #FFF 0%, #F0F1FF 100%);
+}
+
+.cards-container {
+    width: 80%;
+    height: 748px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 165px;
+    margin-right: 165px;
+}
+
+.card1 {
+    width: 27%;
+    height: 322px;
+    border-radius: 15px;
+    background: var(--Gradient-1, linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%));
+}
+
+.card1 .check-out-box {
+    width: 286px;
+    height: 120px;
+    color: var(--FFFFFF, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Plus Jakarta Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px;
+    margin-top: 64px;
+    margin-left: 50px;
+}
+
+/* ! Card 2 */
+
+.card2 {
+    width: 27%;
+    height: 322px;
+    margin-left: 70px;
+    border-radius: 15px;
+    background: var(--FFFFFF, #FFF);
+    box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+    position: relative;
+}
+
+.card2 .card2-top-img {
+    position: absolute;
+    left: 32px;
+    bottom: 290px;
+}
+
+.card2 .anim-text {
+    color: var(--13183F, #13183F);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-top: 64px;
+    margin-left: 32px;
+}
+
+.card2 .anim-desc {
+    width: 286px;
+    margin-left: 32px;
+    margin-top: 24px;
+    color: var(--83869A, #83869A);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.card2 .get-started-link {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--F74780, #F74780);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    margin-top: 24px;
+    margin-left: 32px;
+}
+
+/* ! Card 3 */
+
+.card3 {
+    width: 27%;
+    height: 322px;
+    margin-left: 70px;
+    border-radius: 15px;
+    background: var(--FFFFFF, #FFF);
+    box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+    position: relative;
+}
+
+.card3 .card3-top-img {
+    position: absolute;
+    left: 32px;
+    bottom: 290px;
+}
+
+.card3 .anim-text3 {
+    color: var(--13183F, #13183F);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-top: 64px;
+    margin-left: 32px;
+}
+
+.card3 .anim-desc3 {
+    width: 286px;
+    margin-left: 32px;
+    margin-top: 24px;
+    color: var(--83869A, #83869A);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.card3 .get-started-link3 {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--F74780, #F74780);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    margin-top: 52px;
+    margin-left: 32px;
+}
+
+/* ! Card 4 */
+
+.card4 {
+    width: 27%;
+    height: 322px;
+    border-radius: 15px;
+    background: var(--FFFFFF, #FFF);
+    box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+    position: relative;
+}
+
+.card4 .card4-top-img {
+    position: absolute;
+    left: 32px;
+    bottom: 290px;
+}
+
+.card4 .anim-text4 {
+    color: var(--13183F, #13183F);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-top: 64px;
+    margin-left: 32px;
+}
+
+.card4 .anim-desc4 {
+    width: 286px;
+    margin-left: 32px;
+    margin-top: 24px;
+    color: var(--83869A, #83869A);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.card4 .get-started-link4 {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--F74780, #F74780);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    margin-top: 52px;
+    margin-left: 32px;
+}
+
+/* ! Card 5 */
+
+.card5 {
+    width: 27%;
+    height: 322px;
+    border-radius: 15px;
+    background: var(--FFFFFF, #FFF);
+    box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+    position: relative;
+    margin-left: 70px;
+}
+
+.card5 .card5-top-img {
+    position: absolute;
+    left: 32px;
+    bottom: 290px;
+}
+
+.card5 .anim-text5 {
+    color: var(--13183F, #13183F);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-top: 64px;
+    margin-left: 32px;
+}
+
+.card5 .anim-desc5 {
+    width: 286px;
+    margin-left: 32px;
+    margin-top: 24px;
+    color: var(--83869A, #83869A);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.card5 .get-started-link5 {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--F74780, #F74780);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    margin-top: 24px;
+    margin-left: 32px;
+}
+
+/* ! Card 6 */
+
+.card6 {
+    width: 27%;
+    height: 322px;
+    border-radius: 15px;
+    background: var(--FFFFFF, #FFF);
+    box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+    position: relative;
+    margin-left: 70px;
+}
+
+.card6 .card6-top-img {
+    position: absolute;
+    left: 32px;
+    bottom: 290px;
+}
+
+.card6 .anim-text6 {
+    color: var(--13183F, #13183F);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-top: 64px;
+    margin-left: 32px;
+}
+
+.card6 .anim-desc6 {
+    width: 286px;
+    margin-left: 32px;
+    margin-top: 24px;
+    color: var(--83869A, #83869A);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.card6 .get-started-link6 {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--F74780, #F74780);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    margin-top: 24px;
+    margin-left: 32px;
+}
+
+/* ! Footer */
+
+.main-foot {
+    height: 120px;
+    width: 100%;
+}
+
+.main-foot .footer {
+    width: 100%;
+    height: 100%;
+    background: var(--13183F, #13183F);
+}
+
+.main-foot .footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.get-started-but-footer {
+    width: 167px;
+    height: 56px;
+    border-radius: 28px;
+    background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+    border: none;
+    color: var(--FFFFFF, #FFF);
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 28px;
+    margin-top: 32px;
+    margin-right: 165px;
+}
+
+.skilled-logo-foot-main {
+    margin-left: 165.79px;
+    margin-top: 46.75px;
+}
+
+
+/* ! Button hover */
+
+.get-started-but-main:hover {
+    background: var(--Gradient-2-Hover, linear-gradient(0deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.50) 100%), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%));
+}
+
+.get-started-but-footer:hover {
+    background: var(--Gradient-2-Hover, linear-gradient(0deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.50) 100%), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%));
+}
+
+.get-started-but:hover {
+    background: var(--Gradient-2-Hover, linear-gradient(0deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.50) 100%), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%));
+}
+
